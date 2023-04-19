@@ -12,6 +12,10 @@
   text-align: right;
 }
 
+.title {
+  display: none;
+}
+
 .main-img {
   width: 100%;
 }
@@ -41,6 +45,7 @@
 
 .add-wrapper {
   display: flex;
+  margin-top: 20px;
 }
 
 ul {
@@ -73,8 +78,7 @@ button {
 }
 
 /* Heading */
-.section-title,
-.add-title {
+.section-title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -102,11 +106,6 @@ button {
 }
 
 /* New Task */
-.add-title {
-  display: block;
-  margin: 0 0 20px;
-}
-
 #new-task {
   width: 318px;
 }
