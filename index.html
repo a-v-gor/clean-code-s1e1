@@ -11,65 +11,63 @@
         charset="utf-8">
   </head>
   <body class="body">
-    <header class="img-wrap">
+    <header class="header">
       <h1 class="title">Todo App</h1>
-      <img class="main-img"
+      <img class="header__img"
           src="./eisenhower-matrix.jpg"
           alt="Eisenhower matrix sheme">
-      <a class="more-inf"
+      <a class="header__more-info"
           href="https://goal-life.com/page/method/matrix-eisenhower">
           Want more details?
       </a>
     </header>
     <main class="main">
-      <section>
-        <h2 class="section-title">Add Item</h2>
-        <div class="add-wrapper">
-          <input id="new-task"
-              class="text task"
-              type="text">
-          <button class="button">Add</button>
+      <section class="section">
+        <h2 class="section__title">Add Item</h2>
+        <div class="section__add-input-wrapper">
+          <input class="section__input-text" type="text">
+          <button class="section__button-word">Add</button>
         </div>
       </section>
-      <section>
-        <h2 class="section-title">Todo</h2>
-        <ul id="incomplete-tasks">
-          <li class="task-item">
-            <input type="checkbox" class="checkbox">
-            <label class="task label">Pay Bills</label>
-            <input type="text" class="text task">
-            <button class="button edit">Edit</button>
-            <button class="button delete">
-              <img class="delete-item"
+      <section class="section">
+        <h2 class="section__title">Todo</h2>
+        <ul class="section__incomplete-tasks">
+          <li class="section__task-item">
+            <input type="checkbox" class="section__checkbox">
+            <label class="section__label">Pay Bills</label>
+            <input type="text" class="section__input-text">
+            <button class="section__button-word section__button-word_change">Edit</button>
+            <button class="section__button-delete">
+              <img class="section__delete-item-img"
                   src="./remove.svg"
                   alt="delete item">
             </button>
           </li>
-          <li class="task-item edit-mode">
-            <input type="checkbox" class="checkbox">
-            <label class="task label">Go Shopping</label>
+          <li class="section__task-item section__task-item_change">
+            <input type="checkbox" class="section__checkbox">
+            <label class="section__label">Go Shopping</label>
             <input type="text"
                 value="Go Shopping"
-                class="text task">
-            <button class="button edit">Save</button>
-            <button class="button delete">
-              <img class="delete-item"
+                class="section__input-text">
+            <button class="section__button-word section__button-word_change">Save</button>
+            <button class="section__button-delete">
+              <img class="section__delete-item-img"
                   src="./remove.svg"
                   alt="delete item">
             </button>
           </li>
         </ul>
       </section>
-      <section>
-        <h2 class="section-title">Completed</h2>
-        <ul id="completed-tasks">
-          <li class="task-item">
-            <input type="checkbox" class="checkbox" checked>
-            <label class="task label">See the Doctor</label>
-            <input type="text" class="text task">
-            <button class="button edit">Edit</button>
-            <button class="button delete">
-              <img class="delete-item"
+      <section class="section">
+        <h2 class="section__title">Completed</h2>
+        <ul class="section__completed-tasks">
+          <li class="section__task-item">
+            <input type="checkbox" class="section__checkbox" checked>
+            <label class="section__label">See the Doctor</label>
+            <input type="text" class="section__input-text">
+            <button class="section__button-word section__button-word_change">Edit</button>
+            <button class="section__button-delete">
+              <img class="section__delete-item-img"
                   src="./remove.svg"
                   alt="delete item">
             </button>
